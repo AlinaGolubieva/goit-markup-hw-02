@@ -3,7 +3,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: #434455;
-  background-color: #fcfcfc;
+  background-color: #ffffff;
 }
 
 a {
@@ -38,21 +38,25 @@ header {
 }
 
 nav {
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 
-.logo {
+.logo-header {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--navy-blue);
+  color: #4d5ae5;
 }
 
 span {
-  color: var(--iris);
+  color: #2e2f42;
+}
+
+.address {
+  font-style: normal;
 }
 
 .mail {
@@ -60,7 +64,6 @@ span {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: rgba(0, 0, 0, 0.2);
-  font-style: normal;
 }
 
 .phone {
@@ -68,27 +71,35 @@ span {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: rgba(0, 0, 0, 0.2);
-  font-style: normal;
 }
 
-.banner-solutions {
-  background-color: var(--navy-blue);
+.banner-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--white);
+  color: #fff;
+}
+
+.banner-solutions {
+  background-color: #2e2f42;
 }
 .button-service {
+  font-family: "Roboto", sans-serif;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: var(--iris);
+  background: #4d5ae5;
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.04em;
-  color: var(--white);
+  color: #fff;
+  cursor: pointer;
 }
 
+.button-service .link:hover,
+.button-service .link:focus {
+  color: #404bbf;
+}
 .solutions-title {
   font-weight: 500;
   font-size: 20px;
@@ -105,7 +116,7 @@ span {
 }
 
 .time {
-  background: var(--cloud);
+  background: #2e2f42;
 }
 
 .time-list {
@@ -118,7 +129,8 @@ span {
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--navy-blue);
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .time-persons {
@@ -127,7 +139,7 @@ span {
   line-height: 120%;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 
 .time-persons-professions {
@@ -138,12 +150,21 @@ span {
   color: rgba(0, 0, 0, 0.2);
 }
 
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
 .portfolio-products {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 
 .portfolio-direction {
@@ -154,21 +175,114 @@ span {
 }
 
 .footer {
-  background: var(--navy-blue);
+  background: #2e2f42;
 }
 
 .footer-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--cloud);
+  color: #4d5ae5;
+}
+
+.footer-span {
+  color: #f4f4fd;
 }
 
 .footer-text {
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: var(--cloud);
+  color: #f4f4fd;
+}
+
+/*! modern-normalize v3.0.1 | MIT License | https://github.com/sindresorhus/modern-normalize */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+html {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  tab-size: 4;
+}
+body {
+  margin: 0;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo,
+    monospace;
+  font-size: 1em;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+table {
+  border-color: currentcolor;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+}
+legend {
+  padding: 0;
+}
+progress {
+  vertical-align: baseline;
+}
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+summary {
+  display: list-item;
 }
