@@ -1,0 +1,174 @@
+/* Basic settings */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #434455;
+  background-color: #fcfcfc;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+}
+
+:root {
+  --second-family: "Raleway", sans-serif;
+}
+
+/* Settings */
+header {
+  background-color: #ffffff;
+}
+
+nav {
+  color: var(--navy-blue);
+}
+
+.logo {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--navy-blue);
+}
+
+span {
+  color: var(--iris);
+}
+
+.mail {
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 0.2);
+  font-style: normal;
+}
+
+.phone {
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 0.2);
+  font-style: normal;
+}
+
+.banner-solutions {
+  background-color: var(--navy-blue);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+.button-service {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: var(--iris);
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: var(--white);
+}
+
+.solutions-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.solutions-text {
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.time {
+  background: var(--cloud);
+}
+
+.time-list {
+  text-align: center;
+}
+
+.time-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+}
+
+.time-persons {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+}
+
+.time-persons-professions {
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-products {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.portfolio-direction {
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  background: var(--navy-blue);
+}
+
+.footer-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--cloud);
+}
+
+.footer-text {
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
+}
