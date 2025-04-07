@@ -36,18 +36,6 @@ nav {
 span {
   color: #2e2f42;
 }
-.header-list-studio {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.header-list-studio li:hover a,
-.header-list-studio li:focus a {
-  color: #404bbf;
-}
 
 .header-list {
   font-weight: 500;
@@ -55,6 +43,11 @@ span {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.header-list li:hover a,
+.header-list li:focus a {
+  color: #404bbf;
 }
 
 .address {
