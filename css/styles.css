@@ -45,8 +45,8 @@ span {
   color: #2e2f42;
 }
 
-.header-list li:hover a,
-.header-list li:focus a {
+.header-list ul li:hover a,
+.header-list ul li:focus a {
   color: #404bbf;
 }
 
