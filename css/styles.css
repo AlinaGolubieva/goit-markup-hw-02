@@ -44,8 +44,8 @@ span {
   color: #2e2f42;
 }
 
-.header-list-studio:hover,
-.header-list-studio:focus {
+.header-list-studio li:hover a,
+.header-list-studio li:focus a {
   color: #404bbf;
 }
 
